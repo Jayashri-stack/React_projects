@@ -1,0 +1,40 @@
+nav {
+    background-color: #1a237e; /* dark blue */
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    position: fixed; /* make it stick to the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* stay above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* optional shadow */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 2rem;
+  }
+  
+  nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Push page content down to avoid being hidden under nav */
+  body {
+    padding-top: 70px;
+  }
+  
